@@ -1,0 +1,43 @@
+/*start of the top nav bar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #cddede;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: black;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    color: black; 
+    transition: color 0.3s ease; /* Add smooth transition */
+  }
+
+  .nav-links li:hover {
+    color: rgb(30, 105, 105); /* Color changes on hover */
+  }
+
+  .nav-links li {
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+  }
+  #shopping-bag {
+    width: 35px;
+    height: 35px;
+  }
+
+/*end of the top nav bar*/
